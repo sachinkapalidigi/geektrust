@@ -1,0 +1,9 @@
+The submission has many magic numbers in it. It reduces readability. 
+You can improve the readability of code by removing all instances of magic numbers. Refer to our help documents to learn more.
+
+Your solution has classes that have a lot of fields, indicating that the class is trying to do too much and may benefit from being broken down into smaller, more focused classes
+Your solution has methods that have a lot of parameters. Methods with a large number of parameters can be difficult to understand, test, and maintain. Keeping the number of parameters in a method small and manageable can improve code readability, testability, and maintainability, and is generally a good design practice.
+There are empty sub classes in your solution. Empty sub classes indicate a design problem or a violation of the principle of inheritance. Avoid empty subclasses and use inheritance only when it's necessary.
+
+Solution has most of the logic concentrated in a few methods or files making it hard to maintain. Concentrated logic in few files or methods can lead to highly complex code. It can cause unintended bugs and maintenance issues and implementing changes becomes increasingly difficult overtime.
+Solution contains deeply nested conditional logic, making it hard to maintain. Nested logic is difficult to update and modify and often is a cause for hidden bugs in applications, avoiding nested conditions promotes simple logic creation which translates to better code maintainability.
